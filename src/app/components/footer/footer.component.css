@@ -1,0 +1,28 @@
+.footer {
+  background-color: #ffc700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem;
+  height: 15vh;
+}
+
+.footerLogotipe {
+  width: 8rem;
+}
+
+.footerLogotipe img {
+  width: 100%;
+}
+
+.footerIcons {
+  display: flex;
+  gap: 2rem;
+}
+
+.iconContainer {
+  width: 3rem;
+}
+.iconContainer img {
+  width: 100%;
+}

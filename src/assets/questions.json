@@ -1,0 +1,32 @@
+{
+  "questions": [
+    {
+      "question": "En España hay cuatro tipos de discapacidad reconocidos: FÍSICA, PSÍQUICA, SENSORIAL y COGNITIVA",
+      "isCorrect": true
+    },
+    {
+      "question": "En España, la discapacidad se reconoce a partir del 33% en los certificados de discapacidad",
+      "isCorrect": true
+    },
+    {
+      "question": "Todas las personas que tienen un certificado de discapacidad de al menos un 33%, pueden aparcar en las plazas reservadas de aparcamiento",
+      "isCorrect": false
+    },
+    {
+      "question": "Las personas con discapacidad no pueden ser autónomas, sino que siempre dependerán de apoyos externos",
+      "isCorrect": false
+    },
+    {
+      "question": "Las personas con discapacidad rinden menos en el trabajo y/o en los estudios",
+      "isCorrect": false
+    },
+    {
+      "question": "Todas las personas con discapacidad necesitan ayudas y/o adaptaciones de algún tipo para poder desenvolverse con autonomía",
+      "isCorrect": false
+    },
+    {
+      "question": "La discapacidad siempre se nota en la persona",
+      "isCorrect": false
+    }
+  ]
+}

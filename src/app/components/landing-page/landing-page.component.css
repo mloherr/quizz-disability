@@ -1,55 +1,173 @@
-.landingMain {
-  background-color: #4ccd99;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.6rem;
+@media (max-width: 767px) {
+  .landingMain {
+    background-color: #4ccd99;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.6rem;
+  }
+
+  .landingDecoration {
+    background-color: white;
+    width: 100%;
+    height: 45vh;
+  }
+
+  .landingText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25rem;
+    padding: 1.25rem;
+    height: 40vh;
+  }
+
+  .landingTitle {
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    text-wrap: wrap;
+    text-align: center;
+  }
+
+  .landingButton {
+    background-color: #fff455;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1.5s ease;
+    border: 2px solid black;
+  }
+
+  .landingButton:hover {
+    display: none;
+  }
+  .landingButton img {
+    width: 90%;
+  }
 }
 
-.landingDecoration {
-  background-color: white;
-  width: 100%;
-  height: 85vh;
-}
+@media (min-width: 768px) and (max-width: 1299px) {
+  .landingMain {
+    background-color: #4ccd99;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.6rem;
+  }
 
-.landingText {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 1.25rem;
-  padding: 1.25rem;
-}
+  .landingDecoration {
+    background-color: white;
+    width: 100%;
+    height: 45vh;
+  }
 
-.landingTitle {
-  font-size: 2rem;
-  font-family: "Montserrat", sans-serif;
-  width: 100%;
-  text-wrap: wrap;
-  text-align: center;
-}
+  .landingText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25rem;
+    padding: 1.25rem;
+    height: 40vh;
+  }
 
-.landingButton {
-  background-color: #fff455;
-  width: 8rem;
-  height: 8rem;
-  border-radius: 50%;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: 1.5s ease;
-  border: 2px solid black;
-}
+  .landingTitle {
+    font-size: 3rem;
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    text-wrap: wrap;
+    text-align: center;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
 
-.landingButton:hover {
-  background-color: #ffc700;
-  width: 8rem;
-  height: 8rem;
-  border-radius: 50%;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  .landingButton {
+    background-color: #fff455;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1.5s ease;
+    border: 2px solid black;
+  }
+
+  .landingButton:hover {
+    display: none;
+  }
+  .landingButton img {
+    width: 90%;
+  }
+}
+@media (min-width: 1300px) {
+  .landingMain {
+    background-color: #4ccd99;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.6rem;
+  }
+
+  .landingDecoration {
+    background-color: white;
+    width: 100%;
+    height: 85vh;
+  }
+
+  .landingText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25rem;
+    padding: 1.25rem;
+  }
+
+  .landingTitle {
+    font-size: 2rem;
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    text-wrap: wrap;
+    text-align: center;
+  }
+
+  .landingButton {
+    background-color: #fff455;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1.5s ease;
+    border: 2px solid black;
+  }
+
+  .landingButton:hover {
+    background-color: #ffc700;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .landingButton img {
+    width: 90%;
+  }
 }

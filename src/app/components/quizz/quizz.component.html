@@ -6,23 +6,25 @@
     </figure>
   </nav>
   <section class="quizzQuestionsSection">
-    <button class="quizzButtonTrue"><strong>Verdadero</strong></button>
+    <button class="quizzButtonTrue" (click)="answer(true)">
+      <strong>Verdadero</strong>
+    </button>
     <div class="quizzCardMain">
-      <p class="quizzCardMainText">
-        En España, hay
-        <strong>cuatro tipos de discapacidad </strong> reconocidos: <br />1.-
-        Física
-        <br />
-        2.- Psíquica <br />
-        3.- Sensorial<br />4.-Cognitiva
-      </p>
+      <p class="quizzCardMainText">{{ currentQuestion.question }}</p>
     </div>
     <div class="quizzCardFalseOne"></div>
     <div class="quizzCardFalseTwo"></div>
-    <button class="quizzButtonFalse"><strong>Falso</strong></button>
+    <button class="quizzButtonFalse" (click)="answer(false)">
+      <strong>Falso</strong>
+    </button>
     <div class="mobileButtons">
-      <button class="mobileButtonTrue"><strong>Verdadero</strong></button>
-      <button class="mobileButtonFalse"><strong>Falso</strong></button>
+      <button class="mobileButtonTrue" (click)="answer(true)">
+        <strong>Verdadero</strong>
+      </button>
+      <button class="mobileButtonFalse" (click)="answer(false)">
+        <strong>Falso</strong>
+      </button>
     </div>
   </section>
+  <app-modal></app-modal>
 </main>

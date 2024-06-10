@@ -11,7 +11,7 @@ interface Question {
   providedIn: 'root'
 })
 export class QuizService {
-  private questionsUrl = 'assets/questions.json'; // Ruta del archivo JSON
+  private questionsUrl = 'assets/questions.json'; 
 
   constructor(private http: HttpClient) { }
 

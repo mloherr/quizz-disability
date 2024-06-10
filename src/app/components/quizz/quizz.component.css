@@ -178,7 +178,7 @@
     background-color: #fff455;
     font-family: "Montserrat", sans-serif;
     width: 20rem;
-    height: 7rem;
+    height: 5rem;
     border-radius: 2rem;
     font-size: 2.3rem;
   }
@@ -189,7 +189,7 @@
     background-color: #fff455;
     font-family: "Montserrat", sans-serif;
     width: 20rem;
-    height: 7rem;
+    height: 5rem;
     border-radius: 2rem;
     font-size: 2.3rem;
   }
@@ -199,7 +199,7 @@
   .quizzCardMain {
     background-color: #007f73;
     width: 35rem;
-    height: 40rem;
+    height: 38rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -210,7 +210,7 @@
   .quizzCardMainText {
     background-color: white;
     width: 30rem;
-    height: 35rem;
+    height: 33rem;
     border-radius: 2rem;
     padding: 4rem;
     font-size: 2.3rem;
@@ -219,7 +219,7 @@
   .quizzCardFalseOne {
     background-color: #4f827d;
     width: 35rem;
-    height: 40rem;
+    height: 38rem;
     border-radius: 2rem;
     position: absolute;
     top: 5.5rem;
@@ -230,10 +230,10 @@
   .quizzCardFalseTwo {
     background-color: #7e8281;
     width: 35rem;
-    height: 40rem;
+    height: 38rem;
     border-radius: 2rem;
     position: absolute;
-    top: 6.5rem;
+    top: 6rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
   }
 }

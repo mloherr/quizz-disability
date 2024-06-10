@@ -1,28 +1,124 @@
-.footer {
-  background-color: #ffc700;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1.25rem;
-  height: 15vh;
+@media (max-width: 767px) {
+  .footer {
+    background-color: #ffc700;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+  }
+
+  .footerLogotipe {
+    width: 5.5rem;
+  }
+
+  .footerLogotipe img {
+    width: 100%;
+  }
+
+  .footerIcons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .iconContainer {
+    width: 2rem;
+  }
+  .iconContainer img {
+    width: 100%;
+  }
 }
 
-.footerLogotipe {
-  width: 8rem;
+@media (min-width: 768px) and (max-width: 1299px) {
+  .footer {
+    background-color: #ffc700;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+  }
+
+  .footerLogotipe {
+    width: 7rem;
+  }
+
+  .footerLogotipe img {
+    width: 100%;
+  }
+
+  .footerIcons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .iconContainer {
+    width: 3rem;
+  }
+  .iconContainer img {
+    width: 100%;
+  }
 }
 
-.footerLogotipe img {
-  width: 100%;
-}
+@media (min-width: 1300px) and (max-width: 1536px) {
+  .footer {
+    background-color: #ffc700;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem;
+    height: 10vh;
+  }
 
-.footerIcons {
-  display: flex;
-  gap: 2rem;
-}
+  .footerLogotipe {
+    width: 8rem;
+  }
 
-.iconContainer {
-  width: 3rem;
+  .footerLogotipe img {
+    width: 100%;
+  }
+
+  .footerIcons {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .iconContainer {
+    width: 3rem;
+  }
+  .iconContainer img {
+    width: 100%;
+  }
 }
-.iconContainer img {
-  width: 100%;
+@media (min-width: 1537px) {
+  .footer {
+    background-color: #ffc700;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem;
+    height: 10vh;
+  }
+
+  .footerLogotipe {
+    width: 8rem;
+  }
+
+  .footerLogotipe img {
+    width: 100%;
+  }
+
+  .footerIcons {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .iconContainer {
+    width: 3rem;
+  }
+  .iconContainer img {
+    width: 100%;
+  }
 }

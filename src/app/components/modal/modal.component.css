@@ -1,0 +1,28 @@
+.modalMain {
+  display: flex;
+}
+
+.modalContainer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  height: 30rem;
+  width: 40rem;
+  transform: translate(-50%, -65%);
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  border-radius: 8px;
+  border: 3px black solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalText {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 6rem;
+}

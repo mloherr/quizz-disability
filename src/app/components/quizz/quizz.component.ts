@@ -1,11 +1,13 @@
 import { Component, ViewChild, OnInit } from '@angular/core';
+import { CommonModule } from '@angular/common';
 import { QuizService } from '../../services/quizz.service';
 import { ModalComponent } from '../modal/modal.component';
+
 
 @Component({
   selector: 'app-quizz',
   standalone: true,
-  imports: [],
+  imports: [CommonModule, ModalComponent],
   templateUrl: './quizz.component.html',
   styleUrl: './quizz.component.css'
 })

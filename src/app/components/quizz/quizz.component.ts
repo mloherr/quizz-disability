@@ -37,4 +37,13 @@ export class QuizzComponent implements OnInit {
       this.modalComponent.showModal('Incorrecto');
     }
   };
+
+  onModalClosed() {
+    this.currentQuestionIndex++;
+    if (this.currentQuestionIndex < this.questions.length) {
+      this.currentQuestion = this.questions[this.currentQuestionIndex];
+    } else {
+      this.modalComponent.showModal('¡Has terminado!');
+    }
+  }
 }

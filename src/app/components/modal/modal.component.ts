@@ -1,4 +1,4 @@
-import { Component, OnInit  } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter  } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 
@@ -11,6 +11,7 @@ import { CommonModule } from '@angular/common';
 })
 export class ModalComponent implements OnInit {
 
+  @Output() modalClosed = new EventEmitter<void>()
   message: string = '';
   isVisible: boolean = false;
 
@@ -24,6 +25,12 @@ export class ModalComponent implements OnInit {
     this.isVisible = true;
     setTimeout(() => {
       this.isVisible = false;
-    }, 10000);
+      this.modalClosed.emit();
+    }, 3000);
+  }
+
+  closeModal() {
+    this.isVisible = false;
+    this.modalClosed.emit();
   }
 }

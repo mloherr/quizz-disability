@@ -1,4 +1,14 @@
 .layoutMain {
-  height: 100%;
   width: 100%;
+}
+
+.quizzMenu {
+  display: flex;
+  background-color: #f55d3e;
+  width: 40%;
+}
+
+.quizzMenuText {
+  width: 50%;
+  background-color: #f55d3e;
 }

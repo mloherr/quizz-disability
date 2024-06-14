@@ -10,10 +10,12 @@
       <strong>Verdadero</strong>
     </button>
     <div class="quizzCardMain">
-      <p class="quizzCardMainText">{{ currentQuestion.question }}</p>
+      <p class="quizzCardMainText">
+        <strong>Pregunta:</strong> <br />
+        {{ currentQuestion.question }}
+      </p>
     </div>
-    <div class="quizzCardFalseOne"></div>
-    <div class="quizzCardFalseTwo"></div>
+
     <button class="quizzButtonFalse" (click)="answer(false)">
       <strong>Falso</strong>
     </button>
